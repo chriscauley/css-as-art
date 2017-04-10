@@ -1,0 +1,31 @@
+* random lines
+** We're going to approach programming half like an art and half like a science
+   - science: f=ma and the 964th digit is pi
+     when I said that everyone knows that pi is a magic number and how to count 964 places
+   - art: this needs more blue and the 4 right chords can make me cry
+     those 4 cords vary for every one
+** Occasionally there will be a "big no no" which I'll teach you
+   - Using these on a job or on a personal project is dangerous
+   - But this is a class, sowe can get away with it
+* outline
+** Intro - why this class
+** Basics - CSS, HTML and the box model
+   Covers background-color, box model, px, and percent
+   exercise: make a basic page layout
+** Shapes: lines, squares, circles, triangles
+   covers: asymetric borders, border-radius
+   excercise: make a smiley face? maybe a cat or bear?
+** Positioning: placement outside the box model
+** Transforms: rotate, scale, skew, shift
+** advanced color
+*** background-gradients
+*** opacity (and generic color theory)
+** Psuedo classes
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+*** covered:
+    user interaction: hover
+    highly specific selectors: first/last/nth child 
+*** not covered:
+    advanced browser interactions: visited, en/disabled, target, focus, fullscreen, empty
+    power selectors: not, only-XXX, any
+*** mention: checked

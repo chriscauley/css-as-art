@@ -170,7 +170,7 @@
                 <li>Without punctuation, the selector is just the name of the tag</li>
                 <li><code>[attribute]</code> selects anything with (any value of) that attribute</li>
                 <li>Inside the braces <code>{}</code> modifies anything matching that selector</li>
-                <li>Rules are a series of property-value pairs</li>
+                <li>A declaration is a series of property-value pairs</li>
               </ul>
             </div>
           </div>
@@ -199,11 +199,6 @@
             </div>
             <div class="col-6">
               <pre><code class="css">
-                  outer {
-                    background: white;
-                    height: 500px;
-                    width: 500px;
-                  }
                   box {
                     border: 10px solid black;
                     height: 25%;
@@ -216,6 +211,11 @@
                     background-color: blue;
                   }
                   /* DANGER ZONE */
+                  outer {
+                    background: white;
+                    height: 500px;
+                    width: 500px;
+                  }
               </code></pre>
             </div>
           </div>
@@ -356,6 +356,7 @@
             <li>-webkit-box-reflect</li>
             <li>animations</li>
             <li>transition</li>
+            <li>filters (ARE FREAKING AWESOME)</li>
           </ul>
           <a href="" class="codepen"></a>
           <aside class="notes"></aside>

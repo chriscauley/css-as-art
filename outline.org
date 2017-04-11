@@ -1,31 +1,74 @@
-* random lines
-** We're going to approach programming half like an art and half like a science
-   - science: f=ma and the 964th digit is pi
-     when I said that everyone knows that pi is a magic number and how to count 964 places
-   - art: this needs more blue and the 4 right chords can make me cry
-     those 4 cords vary for every one
-** Occasionally there will be a "big no no" which I'll teach you
-   - Using these on a job or on a personal project is dangerous
-   - But this is a class, sowe can get away with it
-* outline
-** Intro - why this class
-** Basics - CSS, HTML and the box model
-   Covers background-color, box model, px, and percent
-   exercise: make a basic page layout
-** Shapes: lines, squares, circles, triangles
-   covers: asymetric borders, border-radius
-   excercise: make a smiley face? maybe a cat or bear?
-** Positioning: placement outside the box model
-** Transforms: rotate, scale, skew, shift
-** advanced color
-*** background-gradients
-*** opacity (and generic color theory)
-** Psuedo classes
-https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
-*** covered:
-    user interaction: hover
-    highly specific selectors: first/last/nth child 
-*** not covered:
-    advanced browser interactions: visited, en/disabled, target, focus, fullscreen, empty
-    power selectors: not, only-XXX, any
-*** mention: checked
+* Notes:
+** Intro
+   When I studied chemistry we started with large abstract ideas rather than jumping into the weeds
+   HTML and CSS is usually taught with the ugly bits exposed first
+   The point of this class is to ignore the trees and see the forest as fast as possible
+
+** What is CSS
+   HTML is content, css is style, js is action
+   Most developers hate CSS because they spend most of the time on the ugly bits
+   We aren't covering the ugly bits :)
+
+** Where did CSS come from
+   The web was created with very different but very vague intentions
+   No one carried around super computers, humans only saw static text, and no one knew ryan gosling
+   It was a dark time
+   CSS was made to reflect the printed word, but hackers started doing strange stuff
+   - Gradient backgrounds, rounded corners, "ribbons and flaire", table layouts
+   CSS was updated to reflect these ideas and was made more standard
+   Now CSS is half well oiled machine, half legacy code
+
+** Open Codepen
+
+** Anatomy of HTML
+   <tagname optional_attributes> content </tagname>
+   normally you have divs and forms and video tags and iframes
+   We're not going to worry too much about the nitty gritty of what's allowed, just letters and dashes, no spaces
+   Content can be text or other tags. We're skipping over the text bits
+
+** Anatomy of CSS
+   rule = selector { declaration }
+   declaration = list of "key: value;" pairs
+
+** CSS as stackable boxes
+   Make a's and b's inside the "outer" container
+   Note the name doesn't matter, it just is used to reference the CSS
+   Mention colors: you can look up names or use hex codes if you're good at that
+   Show what happens when you fuck with sizes, maybe make a c?
+   Show what happens when you make <row> with only necessary elements
+   introduce [attributes] now
+
+** The box model
+   We're ignoring margin/padding
+   Draw box on board
+
+** Positioning
+   Filling space and pushing elements around is default and normal
+   But for art we don't necessarily want that
+   Draw a "before" and after with three boxes
+   We'd rather move things to an absolute position based off parent coordinates
+** Making shapes
+   draw out html in tree form
+   explain how each node gets properties from the parent
+
+** Transforms
+   talk over the types of transforms
+   draw shape on board
+   talk about keeping them as siblings vs children
+
+** gradients
+   draw css on board
+   explain direction, colors, stops
+
+** cropping
+   how can we do hexagons, triangles, etc etc
+   remind them of atom symbol, go into code and convert to 3x branches, no border radius
+
+** not covered
+   box-shadow
+   open within the wires!
+   psuedo Elements - before, after - used to make flaire
+   pseudo-classes - nth-child selectors, hover, checked
+   -webkit-box-reflect 
+   animations - rainbowroad
+   transition - hover, checked, etc. (show blog with golden rectangle)
